@@ -315,6 +315,15 @@
 
 
 	@media (max-width: 991px){
+
+	.video-div{
+		width: 97%;
+		height: 400px;
+	}
+
+	.video-frame {
+    	margin-top: 18px;
+   	}
     .image-cir img {
     width: 94%;
     height: 289px;
@@ -413,6 +422,9 @@
     border-radius: 20px;
     object-fit: cover;
     border-radius: 160px;
+}
+.video-div {
+    width: 93%;
 }
 
 .overlay-full-quienes {

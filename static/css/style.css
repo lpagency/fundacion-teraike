@@ -25,6 +25,19 @@
     border-radius: 20px;
 }
 
+.video-div{
+    background-color: black;
+    height: 320px;
+    width: 335px;
+    margin-left: 14px;
+    margin-top: 20px;
+    border-radius: 23px;
+}
+
+.video-frame{
+    margin-top: -23px;
+}
+
 .btn-block{
     border: solid 1px #ccc;
     color: #777;
