@@ -1,46 +1,59 @@
-@media (max-width: 1209px){
-	.image-cir img {
-    width: 94%;
-    height: 247px;
-    margin-top: 20px;
-    border-radius: 20px;
-    object-fit: cover;
-    border-radius: 160px;
+@media (max-width: 1209px)
+{
+    .image-cir img
+    {
+        width: 94%;
+        height: 247px;
+        margin-top: 20px;
+        border-radius: 20px;
+        object-fit: cover;
+        border-radius: 160px;
+    }
 }
 
-}
-@media only screen and (max-width: 1024px) {
-	/***header css****/
+@media only screen and (max-width: 1024px)
+{
+    .video-div
+    {
+        width: 33.33333333%;
+        margin-left: inherit;
+    }
 
-	.video-div{
-		width: 33.33333333%;
-		margin-left: inherit;
-	}
+    .video-fundacion
+    {
+        width: 99%;
+    }
 
-	.video-fundacion{
-		width: 99%;
-	}
+    .top-header
+    {
+        width: 100%;
+    }
 
-	.top-header {
-	  width: 100%;
-	}
-	.desktop{
-		display: none;
-	}
-	.shadow {
-	  box-shadow: none;
-	}
-	.menu-icon {
-	  float: right;
-	  margin: 40px 0px 0px -20px;
-	}
-	.menuicon {
-	  display: block;
-	  width: 35px;
-	  height: 5px;
-	  background-color: black;
-	  margin: 6px 0;
-	}
+    .desktop
+    {
+        display: none;
+    }
+
+    .shadow 
+    {
+        box-shadow: none;
+    }
+
+    .menu-icon 
+    {
+        float: right;
+        margin: 40px 0px 0px -20px;
+    }
+
+    .menuicon
+    {
+        display: block;
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
 	.logo-div {
 	  width: 100%;
 	  margin-left: 0%;
