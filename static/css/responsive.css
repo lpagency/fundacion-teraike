@@ -12,6 +12,15 @@
 @media only screen and (max-width: 1024px) {
 	/***header css****/
 
+	.video-div{
+		width: 33.33333333%;
+		margin-left: inherit;
+	}
+
+	.video-fundacion{
+		width: 99%;
+	}
+
 	.top-header {
 	  width: 100%;
 	}
@@ -184,7 +193,7 @@
 	/***[noticias.html]***/
 
 	.noticias-image-half img {
-	  height: auto;
+	  height: 320px;
 	  width: 100%;
 	}
 	.noticias-image img {
@@ -398,6 +407,11 @@
 	}
 
 @media only screen and (max-width: 768px){
+
+	.video-fundacion{
+		top: 22px;
+	}
+
 	.overlay-full{
     	visibility: visible;
 	}

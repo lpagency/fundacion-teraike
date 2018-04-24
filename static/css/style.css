@@ -9,6 +9,15 @@
 
 }
 
+.video-fundacion
+{
+    position:absolute;
+    left:0;
+    top:-20px;
+    width:335px;
+    height:360px;
+}
+
 .overlay-full-hacer {
     position: absolute;
     top: 0;
