@@ -15,13 +15,19 @@
 {
     .video-div
     {
-        width: 33.33333333%;
+        width: 30%;
         margin-left: inherit;
     }
 
     .video-fundacion
     {
-        width: 99%;
+        width: 109%;
+    }
+
+    .bg-text2
+    {
+        height: 8.5em;
+        max-height: inherit;
     }
 
     .top-header
@@ -252,7 +258,7 @@
 
     .noticias-image-half img
     {
-        height: 320px;
+        height: 150px;
         width: 100%;
     }
 
@@ -260,6 +266,16 @@
     {
         height: auto;
         width: 100%;
+    }
+
+    .div
+    {
+        margin-left: 0%;
+    }
+
+    .texto-banner
+    {
+        margin-left: 0% !important;
     }
 
     .overlay
@@ -311,20 +327,20 @@
 
     .bg-button
     {
-        width: 100%;
+        width: 26%;
         float: right !important;
         right: 26%;
         position: relative;
         margin: 0px;
-        top: 11px;
+        top: -111px;
     }
 
     .bg-button a
     {
-        margin-top:-15px;
-        font-size: 15px;
+        margin-top: -15px;
+        font-size: 30px;
         text-align: center;
-        padding: 2px 10px 2px 10px;
+        padding: 2px 30px 2px 30px;
     }
 
     .bg-text p
@@ -414,6 +430,16 @@
 @media (max-width: 991px)
 {
 
+    .bg-text2
+    {
+        width: 16em;
+    }
+
+    .bg-button
+    {
+        width: 34%;
+    }
+
     .video-div
     {
         width: 97%;
@@ -423,6 +449,7 @@
     .video-frame
     {
         margin-top: 18px;
+        left: -30px;
     }
 
     .image-cir img
@@ -534,6 +561,20 @@
 
 @media (max-width: 767px)
 {
+
+    .video-frame
+    {
+        left: -13px;
+        width: 108%;
+    }
+
+    .bg-button
+    {
+        width: 81%;
+        right: 11%;
+        top: 0px;
+    }
+
     .image-cir img
     {
         width: 308px;
