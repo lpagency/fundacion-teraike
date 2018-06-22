@@ -504,7 +504,6 @@ img.change-image
 .banner-div-home .editable p,
 .editable .text_main
 {
-    z-index: 100;
     position: absolute;
     color: white;
     font-size: 24px;

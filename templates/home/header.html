@@ -1,3 +1,8 @@
+{% if is_admin %} 
+    {% set editabletext = 'editabletext' %} 
+{% else %} 
+    {% set editabletext = '' %} 
+{% end %}
 <div class="container">
     <div class="row">
         <div class="col-md-12 col-lg-12">
@@ -66,7 +71,7 @@
                         </div>
                     {% end %}
                     <img id="{{ site.name }}banner{{ request.path.replace('/', '_') }}" src="{{ read_image(site.name + 'banner' + request.path.replace('/', '_'), 1) }}" onload="this.onload='';this.src='{{ read_image(site.name + 'banner'+ request.path.replace('/', '_'),) }}'" alt="item">
-                    <div class="{{editable}} text_main text-left" text-id="{{ site.name + 'text_banner_header1' + request.path.replace('/', '_') }}">
+                    <div class="{{editabletext}} editable text_main text-left" text-id="{{ site.name + 'text_banner_header1' + request.path.replace('/', '_') }}">
                         {{ read_text(site.name +  'text_banner_header1' + request.path.replace('/', '_')) }}
                     </div>
                     <div class="menu-icon">
